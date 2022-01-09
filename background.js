@@ -2,7 +2,6 @@ $(function() {
 // Some global vars I will want to change in the future
 var runOnce = false;
 var compareUrl = '';
-const chatID = "1032615272";
 const urlText = 'https://cs.fastcup.net'
 
 

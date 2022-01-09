@@ -15,7 +15,8 @@
     }],
     "browser_action": {
         "default_title": "FASTCUP AUTO ACCEPT",
-        "default_icon": "logo.png"
+        "default_icon": "logo.png",
+        "default_popup": "popup.html"
     },
     "permissions": [
         "activeTab",
