@@ -1,0 +1,26 @@
+{
+    "name": "AA-CLIENT(FASTCUP)",
+    "version": "1.2",
+    "description": "Auto accepts matches on fastcup!",
+    "icons": {
+        "16": "logo16.png", 
+        "32": "logo32.png", 
+        "48": "logo48.png", 
+        "128": "logo128.png"
+    },
+    "content_scripts": [{
+        "matches": ["*://*.fastcup.net/*"],
+        "match_about_blank": true,
+        "js": ["jquery.min.js", "background.js"]
+    }],
+    "browser_action": {
+        "default_title": "FASTCUP AUTO ACCEPT",
+        "default_icon": "logo.png"
+    },
+    "permissions": [
+        "activeTab",
+        "declarativeContent",
+        "storage"
+    ],
+    "manifest_version": 2
+}
